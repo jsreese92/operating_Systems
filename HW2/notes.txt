@@ -1,0 +1,9 @@
+why do I have to use ./test but can just say 530shell to run it?
+    --because there's already test defined in my path elsewhere
+
+I think a text file ends with a newline regardless, which causes
+a new prompt to come up, and it also contains an EOF character.
+    so when a file ends, ONE extra prompt comes up.
+
+Or rather, the total number of times the prompt comes up, comes up
+AFTER ls or pwd is done executing.

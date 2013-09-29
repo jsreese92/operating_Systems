@@ -1,0 +1,14 @@
+gcc sample.c semaphore.o -o sample -L. -lst
+
+~~~Clipboard~~~
+
+
+  /*test to see if spaces were being converted correctly
+  int i;
+    for(i = 0; i < 5; i++){ 
+      theCharacter = consume(init->from);
+      printf("theCharacter=[%c]\n", theCharacter);
+    }
+  */
+
+

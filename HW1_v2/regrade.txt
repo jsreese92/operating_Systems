@@ -1,0 +1,7 @@
+If EOF is 80th character, last line is not outputted 0/5
+--should be 5/5
+--t78.txt
+
+If CR 79th or 81st 0/2
+--should also be right, 2/2
+--t79 and t81
